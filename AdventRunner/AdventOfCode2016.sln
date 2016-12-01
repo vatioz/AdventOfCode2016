@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventRunner", "AdventRunne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventLib", "AdventLib\AdventLib.csproj", "{0068D2AA-C2C2-46A1-A49D-69F58124DAD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent.Tests", "Advent.Tests\Advent.Tests.csproj", "{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,30 +51,6 @@ Global
 		{0068D2AA-C2C2-46A1-A49D-69F58124DAD5}.Release|x64.Build.0 = Release|Any CPU
 		{0068D2AA-C2C2-46A1-A49D-69F58124DAD5}.Release|x86.ActiveCfg = Release|Any CPU
 		{0068D2AA-C2C2-46A1-A49D-69F58124DAD5}.Release|x86.Build.0 = Release|Any CPU
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|ARM.ActiveCfg = Debug|ARM
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|ARM.Build.0 = Debug|ARM
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|ARM.Deploy.0 = Debug|ARM
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|x64.ActiveCfg = Debug|x64
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|x64.Build.0 = Debug|x64
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|x64.Deploy.0 = Debug|x64
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|x86.ActiveCfg = Debug|x86
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|x86.Build.0 = Debug|x86
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Debug|x86.Deploy.0 = Debug|x86
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|ARM.ActiveCfg = Release|ARM
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|ARM.Build.0 = Release|ARM
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|ARM.Deploy.0 = Release|ARM
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|x64.ActiveCfg = Release|x64
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|x64.Build.0 = Release|x64
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|x64.Deploy.0 = Release|x64
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|x86.ActiveCfg = Release|x86
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|x86.Build.0 = Release|x86
-		{84CA2948-80E9-4CC1-B5AA-473ED8F686BB}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
