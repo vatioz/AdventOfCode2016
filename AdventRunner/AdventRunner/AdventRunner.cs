@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using AdventLib.Day01;
+using AdventLib.Day02;
 using AdventOfCode.Shared;
 
 namespace AdventRunner
@@ -21,6 +22,7 @@ namespace AdventRunner
         public void ComposeAllSolutions(bool filterSlowDays = true)
         {
             Advent.Add(new Day01());
+            Advent.Add(new Day02());
         }
 
         public void ExecuteComposedSolutions()

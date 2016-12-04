@@ -8,7 +8,7 @@ namespace AdventLib.Day02
 {
     public interface IButton
     {
-        int Number { get; }
+        string Label { get; }
 
         IButton Move(string instructions);
 
@@ -16,16 +16,16 @@ namespace AdventLib.Day02
 
     public class Button:IButton
     {
-        public int Number { get; }
+        public string Label { get; }
 
         private Button _up;
         private Button _right;
         private Button _down;
         private Button _left;
 
-        public Button(int buttonNumber)
+        public Button(string buttonLabel)
         {
-            Number = buttonNumber;
+            Label = buttonLabel;
         }
 
         public void SetNeighbors(Button up, Button right, Button down, Button left)
@@ -65,14 +65,26 @@ namespace AdventLib.Day02
                     throw new NotSupportedException($"Instruction {step} not supported.");
             }
         }
-        
+
+        public override bool Equals(object obj)
+        {
+            if (obj is string)
+                return this.Label == (string) obj;
+
+            else if(obj is Button)
+                return this.Label == ((Button) obj).Label;
+            else
+            {
+                throw new NotSupportedException($"Cannot compare Button to {obj.GetType().Name}");
+            }
+        }
     }
 
     public class NullButton : Button
     {
         private readonly Button _goBack;
 
-        public NullButton(Button goBack) : base(0)
+        public NullButton(Button goBack) : base("null")
         {
             _goBack = goBack;
         }

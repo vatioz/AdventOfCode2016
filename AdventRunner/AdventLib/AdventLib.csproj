@@ -47,6 +47,7 @@
     <Compile Include="Day01\Input.cs" />
     <Compile Include="Day02\Button.cs" />
     <Compile Include="Day02\Day02.cs" />
+    <Compile Include="Day02\Input.cs" />
     <Compile Include="Day02\KeyPad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\DayBase.cs" />
@@ -54,6 +55,11 @@
     <Compile Include="Shared\FileParser.cs" />
     <Compile Include="Shared\IAdventDay.cs" />
     <Compile Include="Shared\InputLineParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Day02\Day02Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
