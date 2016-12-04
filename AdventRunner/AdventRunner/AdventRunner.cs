@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using AdventLib.Day01;
 using AdventLib.Day02;
+using AdventLib.Day03;
 using AdventOfCode.Shared;
 
 namespace AdventRunner
@@ -23,6 +24,7 @@ namespace AdventRunner
         {
             Advent.Add(new Day01());
             Advent.Add(new Day02());
+            Advent.Add(new Day03());
         }
 
         public void ExecuteComposedSolutions()
