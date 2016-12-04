@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AdventRunner
 {
-    class Program
+    public static class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            var runner = new AdventRunner();
+            runner.ComposeAllSolutions();
+            runner.ExecuteComposedSolutions();
+            
+            Console.WriteLine(Environment.NewLine + "The End");
+            Console.ReadKey();
         }
     }
 }
