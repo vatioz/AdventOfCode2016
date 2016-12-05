@@ -52,6 +52,9 @@
     <Compile Include="Day03\Day03.cs" />
     <Compile Include="Day03\Triangle.cs" />
     <Compile Include="Day03\TriangleSpecs.cs" />
+    <Compile Include="Day04\Day04.cs" />
+    <Compile Include="Day04\Room.cs" />
+    <Compile Include="Day04\RoomList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\DayBase.cs" />
     <Compile Include="Shared\FileLineParser.cs" />
@@ -64,6 +67,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Day03\Day03Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day04\Day04Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
