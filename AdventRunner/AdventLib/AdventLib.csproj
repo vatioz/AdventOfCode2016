@@ -42,19 +42,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Day01\Day01.cs" />
-    <Compile Include="Day01\Grid.cs" />
-    <Compile Include="Day01\Input.cs" />
-    <Compile Include="Day02\Button.cs" />
-    <Compile Include="Day02\Day02.cs" />
-    <Compile Include="Day02\Input.cs" />
-    <Compile Include="Day02\KeyPad.cs" />
-    <Compile Include="Day03\Day03.cs" />
-    <Compile Include="Day03\Triangle.cs" />
-    <Compile Include="Day03\TriangleSpecs.cs" />
-    <Compile Include="Day04\Day04.cs" />
-    <Compile Include="Day04\Room.cs" />
-    <Compile Include="Day04\RoomList.cs" />
+    <Compile Include="Day05\Day05.cs" />
+    <Compile Include="Day05\Input.cs" />
+    <Compile Include="Week1\Day01\Day01.cs" />
+    <Compile Include="Week1\Day01\Grid.cs" />
+    <Compile Include="Week1\Day01\Input.cs" />
+    <Compile Include="Week1\Day02\Button.cs" />
+    <Compile Include="Week1\Day02\Day02.cs" />
+    <Compile Include="Week1\Day02\Input.cs" />
+    <Compile Include="Week1\Day02\KeyPad.cs" />
+    <Compile Include="Week1\Day03\Day03.cs" />
+    <Compile Include="Week1\Day03\Triangle.cs" />
+    <Compile Include="Week1\Day03\TriangleSpecs.cs" />
+    <Compile Include="Week1\Day04\Day04.cs" />
+    <Compile Include="Week1\Day04\Room.cs" />
+    <Compile Include="Week1\Day04\RoomList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\DayBase.cs" />
     <Compile Include="Shared\FileLineParser.cs" />
@@ -63,13 +65,13 @@
     <Compile Include="Shared\InputLineParser.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Day02\Day02Input.txt">
+    <Content Include="Week1\Day02\Day02Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Day03\Day03Input.txt">
+    <Content Include="Week1\Day03\Day03Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Day04\Day04Input.txt">
+    <Content Include="Week1\Day04\Day04Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

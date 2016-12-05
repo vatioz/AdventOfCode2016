@@ -5,6 +5,7 @@ using AdventLib.Day01;
 using AdventLib.Day02;
 using AdventLib.Day03;
 using AdventLib.Day04;
+using AdventLib.Day05;
 using AdventOfCode.Shared;
 
 namespace AdventRunner
@@ -27,6 +28,7 @@ namespace AdventRunner
             Advent.Add(new Day02());
             Advent.Add(new Day03());
             Advent.Add(new Day04());
+            Advent.Add(new Day05());
         }
 
         public void ExecuteComposedSolutions()
